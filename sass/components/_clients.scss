@@ -1,0 +1,35 @@
+.clients {
+  padding-left: 0px;
+  margin-top: 50px;
+  display: flex;
+}
+
+.clients__ref {
+  width: 170px;
+  height: 92px;
+  border: 1px solid var(--icon-social-color);
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1) border-color, fill;
+
+  &:hover,
+  &:focus {
+    border-color: var(--accent-color);
+  }
+}
+
+.clients__item:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients__logo {
+  fill: var(--icon-social-color);
+}
+
+.clients__ref:hover .clients__logo,
+.clients__ref:focus .clients__logo {
+  fill: var(--accent-color);
+}
