@@ -1064,6 +1064,17 @@ body {
   color: #212121;
 }
 
+.form__title {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.15;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
 .form-field__label {
   margin-bottom: 4px;
   font-style: normal;
@@ -1116,7 +1127,7 @@ body {
           text-decoration-line: underline;
 }
 
-.policy__label .policy__input:checked + .policy__label::before {
+.policy__input:checked + .policy__label::before {
   background-color: var(--accent-color);
   background-image: url(../images/tip.svg);
   background-repeat: no-repeat;
