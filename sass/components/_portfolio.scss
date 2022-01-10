@@ -114,7 +114,7 @@
   height: 100%;
   background: rgba(33, 150, 243, 0.9);
 
-  transform: translateY(100%);
+  transform: translateY(calc(100% + 1px));
   margin: 0;
   padding: 63px 24px;
 
@@ -128,4 +128,5 @@
 .portfolio-list__item:hover .image-box__text,
 .portfolio-list__item:focus .image-box__text {
   transform: translateY(0%);
+  background: rgba(33, 150, 243, 0.9);
 }
